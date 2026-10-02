@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+
+{% block title %}Terms and Conditions — Spendly{% endblock %}
+
+{% block content %}
+
+<section class="legal-section">
+    <div class="legal-container">
+
+        <div class="legal-header">
+            <div class="hero-badge">Legal</div>
+            <h1 class="legal-title">Terms and Conditions</h1>
+            <p class="legal-updated">Last updated: October 2, 2026</p>
+        </div>
+
+        <div class="legal-card">
+
+        <p>Welcome to Spendly. By creating an account or using Spendly, you agree to these Terms and Conditions. If you do not agree, please do not use the service.</p>
+
+        <h2>1. The service</h2>
+        <p>Spendly is a personal finance tool that lets you record expenses, organise them by category and date, and view summaries of your spending. It is provided for personal, non-commercial use.</p>
+
+        <h2>2. Your account</h2>
+        <ul>
+            <li>You must provide accurate information when you register.</li>
+            <li>You are responsible for keeping your password confidential and for all activity under your account.</li>
+            <li>You must notify us promptly if you suspect unauthorised use of your account.</li>
+        </ul>
+
+        <h2>3. Acceptable use</h2>
+        <p>You agree not to:</p>
+        <ul>
+            <li>use Spendly for any unlawful purpose;</li>
+            <li>attempt to access other users' accounts or data;</li>
+            <li>interfere with, disrupt or overload the service;</li>
+            <li>reverse engineer or copy any part of the service except as permitted by law.</li>
+        </ul>
+
+        <h2>4. Your data</h2>
+        <p>You own the expense data you enter. You grant Spendly permission to store and process it solely to operate the service for you. How we handle your information is described in our <a href="{{ url_for('privacy') }}">Privacy Policy</a>.</p>
+
+        <h2>5. Not financial advice</h2>
+        <p>Spendly is a record-keeping and reporting tool. Nothing in the service is financial, tax, legal or investment advice. You are responsible for the decisions you make based on your own records.</p>
+
+        <h2>6. Availability and changes</h2>
+        <p>We aim to keep Spendly available but do not guarantee uninterrupted or error-free operation. We may modify, suspend or discontinue features at any time.</p>
+
+        <h2>7. Termination</h2>
+        <p>You may stop using Spendly and request deletion of your account at any time. We may suspend or close accounts that violate these Terms.</p>
+
+        <h2>8. Disclaimer and limitation of liability</h2>
+        <p>Spendly is provided "as is" without warranties of any kind. To the fullest extent permitted by law, Spendly and its operators are not liable for any indirect or consequential loss, or for loss of data, arising from your use of the service. You are encouraged to keep your own backups of important records.</p>
+
+        <h2>9. Changes to these Terms</h2>
+        <p>We may update these Terms from time to time. The "Last updated" date above shows the latest revision. Continuing to use Spendly after changes means you accept the updated Terms.</p>
+
+        <h2>10. Governing law</h2>
+        <p>These Terms are governed by the laws of India. Any disputes are subject to the jurisdiction of the courts of India.</p>
+
+        <h2>11. Contact</h2>
+        <p>Questions about these Terms? Contact us at <a href="mailto:support@spendly.example">support@spendly.example</a>.</p>
+
+        </div>
+
+    </div>
+</section>
+
+{% endblock %}
